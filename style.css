@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.contener{
+    max-width: 80%;
+    
+    padding: 34px;
+  margin: auto;
+
+}
+
+.contener h1,p{
+    text-align: center;
+    font-family: 'Tapestry', cursive;
+}
+
+input, textarea{
+    border: 2PX solid black;
+    border-radius: 7px;
+    outline: none;
+    display: block;
+
+width: 80%;
+    font-size: 15px;
+    margin: 11px auto;
+    padding: 7px;
+
+}
+
+form{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background: red;
+    padding: 11px 7px;
+    font-size: 20px;
+    border: 2px solid wheat;
+    border-radius:12px ;
+    cursor: pointer;
+}
+
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.submitemsg{
+    font-size: 25px;
+    color: hwb(0 0% 100% / 0.89);
+    background-color: antiquewhite;
+    margin: 20px;
+   
+}
