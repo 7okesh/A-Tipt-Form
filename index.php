@@ -22,7 +22,7 @@ if(isset($_POST['name'])){
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $desc = $_POST['desc'];
-    $sql = "INSERT INTO `trip`.`trip` (`name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', current_timestamp());";
+    $sql = "INSERT INTO `ustrip`.`trip` (`name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', current_timestamp());";
     // echo $sql;
 
     // Execute the query
@@ -74,7 +74,7 @@ if(isset($_POST['name'])){
     <button class="btn">Reset</button>
 
 
-    INSERT INTO `trip` (`sno`, `name`, `gender`, `age`, `email`, `phone`, `other`, `dt`) VALUES ('1', 'lokesh', 'male', '20', 'this@this,com', '669797946468', 'ghjfcghvcb', current_timestamp());
+    INSERT INTO `ustrip` (`sno`, `name`, `gender`, `age`, `email`, `phone`, `other`, `dt`) VALUES ('1', 'lokesh', 'male', '20', 'this@this,com', '669797946468', 'ghjfcghvcb', current_timestamp());
 
 
 
